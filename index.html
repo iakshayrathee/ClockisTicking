@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/css/favicon-32x32.png">
+
+    <script src="script.js"></script>
+    <title>Clock is ticking</title>
+</head>
+<body>
+    <div class="container">
+      <div class="mainheading">
+        <span>Clock  is  Ticking</span>
+      </div>
+        <div class="write">
+            <h1>Time <span class="role"></span></h1>
+        </div>
+        <div class="para">
+          <p>Time is more precious than money is. <br>Once the money is used,<br> it can be earned again,<br> but the time which has passed will never return. 
+        </div>
+        <div id="clockContainer">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+            <div id="footer">
+              ©️ 2023 Akshay Rathee
+            </div>
+           
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typeData = new Typed(".role",{
+    strings: [
+      " is money.",
+      " waits for no one.",
+    ],
+    loop:true,
+    typeSpeed:50,
+    backSpeed:30,
+    backDelay:100,
+  });
+</script>
+</body>
+</html>

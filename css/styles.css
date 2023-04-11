@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+body{
+	margin: 0%;
+	padding: 0%;
+	/* background-color: black; */
+	font-size: 2rem;
+	background-image: url(/css/hourglass.jpg)  ;
+	background-size: cover;
+}
+.mainheading span{
+position: absolute;
+top: 8%;
+left: 15%;
+color: white;
+font-family: 'Alkatra', cursive;
+font-size: 2em;
+}
+.write{
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	font-family: 'Alkatra', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.para{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	font-family: 'Mukta', sans-serif;
+}
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 20vw;
+	width: 20vw;
+	background: url(clock.png) no-repeat;
+	background-size: 100%;
+	float: right;
+	margin-top: 13%;
+    margin-right: 10%;
+}
+
+#hour, #minute, #second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.8%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 0.8;
+}
+#footer{
+color: white;
+position: relative;
+bottom: 3%;
+top: 152%;
+right: 137%;
+font-size: 1.4rem;
+}
